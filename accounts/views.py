@@ -43,4 +43,4 @@ class SignUpSuccessView(TemplateView):
 
 #このindexメソッドが呼び出されるとreturnのアドレスのhtmlを返す
 def index(request):
-    return render(request, 'C:/Users/USER/Documents/newphotogallery/accounts/templates/logout_conf.html')
+    return render(request, 'C:/newphotogallery/accounts/templates/logout_conf.html')
